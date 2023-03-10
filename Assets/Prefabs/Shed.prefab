@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 3729720800001219063}
   - component: {fileID: 3729720800001219064}
   - component: {fileID: 3729720800001219065}
-  - component: {fileID: 3729720800001219066}
   m_Layer: 0
   m_Name: Plank (11)
   m_TagString: Untagged
@@ -302,20 +301,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800001219068}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720800001219066
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720800001219068}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720800030710210
 GameObject:
   m_ObjectHideFlags: 0
@@ -328,7 +313,6 @@ GameObject:
   - component: {fileID: 3729720800030710269}
   - component: {fileID: 3729720800030710270}
   - component: {fileID: 3729720800030710271}
-  - component: {fileID: 3729720800030710208}
   m_Layer: 0
   m_Name: Plank (1)
   m_TagString: Untagged
@@ -618,20 +602,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800030710210}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720800030710208
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720800030710210}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720800090591511
 GameObject:
   m_ObjectHideFlags: 0
@@ -644,7 +614,6 @@ GameObject:
   - component: {fileID: 3729720800090591506}
   - component: {fileID: 3729720800090591507}
   - component: {fileID: 3729720800090591508}
-  - component: {fileID: 3729720800090591509}
   m_Layer: 0
   m_Name: Plank (10)
   m_TagString: Untagged
@@ -660,7 +629,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800090591511}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.3096334, y: 0.50001, z: 0.0000000144355}
+  m_LocalPosition: {x: 1.4602729, y: 0.50001, z: 0.0000000144355}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -934,20 +903,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800090591511}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720800090591509
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720800090591511}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720800099363170
 GameObject:
   m_ObjectHideFlags: 0
@@ -960,7 +915,6 @@ GameObject:
   - component: {fileID: 3729720800099363101}
   - component: {fileID: 3729720800099363102}
   - component: {fileID: 3729720800099363103}
-  - component: {fileID: 3729720800099363168}
   m_Layer: 0
   m_Name: Plank (11)
   m_TagString: Untagged
@@ -1250,20 +1204,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800099363170}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720800099363168
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720800099363170}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720800115527343
 GameObject:
   m_ObjectHideFlags: 0
@@ -1276,7 +1216,6 @@ GameObject:
   - component: {fileID: 3729720800115527338}
   - component: {fileID: 3729720800115527339}
   - component: {fileID: 3729720800115527340}
-  - component: {fileID: 3729720800115527341}
   m_Layer: 0
   m_Name: Plank (7)
   m_TagString: Untagged
@@ -1566,20 +1505,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800115527343}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720800115527341
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720800115527343}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720800123919773
 GameObject:
   m_ObjectHideFlags: 0
@@ -1592,7 +1517,6 @@ GameObject:
   - component: {fileID: 3729720800123919768}
   - component: {fileID: 3729720800123919769}
   - component: {fileID: 3729720800123919770}
-  - component: {fileID: 3729720800123919771}
   m_Layer: 0
   m_Name: Plank (9)
   m_TagString: Untagged
@@ -1882,20 +1806,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800123919773}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720800123919771
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720800123919773}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720800125611393
 GameObject:
   m_ObjectHideFlags: 0
@@ -1908,7 +1818,6 @@ GameObject:
   - component: {fileID: 3729720800125611452}
   - component: {fileID: 3729720800125611453}
   - component: {fileID: 3729720800125611454}
-  - component: {fileID: 3729720800125611455}
   m_Layer: 0
   m_Name: Plank (13)
   m_TagString: Untagged
@@ -2198,20 +2107,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800125611393}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720800125611455
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720800125611393}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720800160308956
 GameObject:
   m_ObjectHideFlags: 0
@@ -2224,7 +2119,6 @@ GameObject:
   - component: {fileID: 3729720800160308951}
   - component: {fileID: 3729720800160308952}
   - component: {fileID: 3729720800160308953}
-  - component: {fileID: 3729720800160308954}
   m_Layer: 0
   m_Name: Beam (2)
   m_TagString: Untagged
@@ -2514,20 +2408,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800160308956}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720800160308954
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720800160308956}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720800222017982
 GameObject:
   m_ObjectHideFlags: 0
@@ -2540,7 +2420,6 @@ GameObject:
   - component: {fileID: 3729720800222017977}
   - component: {fileID: 3729720800222017978}
   - component: {fileID: 3729720800222017979}
-  - component: {fileID: 3729720800222017980}
   m_Layer: 0
   m_Name: Plank (12)
   m_TagString: Untagged
@@ -2556,7 +2435,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800222017982}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.9472343, y: 0.50001, z: 0.0000000144355}
+  m_LocalPosition: {x: 2.097874, y: 0.50001, z: 0.0000000144355}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2830,20 +2709,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800222017982}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720800222017980
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720800222017982}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720800243207747
 GameObject:
   m_ObjectHideFlags: 0
@@ -2856,7 +2721,6 @@ GameObject:
   - component: {fileID: 3729720800243207806}
   - component: {fileID: 3729720800243207807}
   - component: {fileID: 3729720800243207744}
-  - component: {fileID: 3729720800243207745}
   m_Layer: 0
   m_Name: Plank (8)
   m_TagString: Untagged
@@ -3146,20 +3010,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800243207747}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720800243207745
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720800243207747}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720800247424119
 GameObject:
   m_ObjectHideFlags: 0
@@ -3172,7 +3022,6 @@ GameObject:
   - component: {fileID: 3729720800247424114}
   - component: {fileID: 3729720800247424115}
   - component: {fileID: 3729720800247424116}
-  - component: {fileID: 3729720800247424117}
   m_Layer: 0
   m_Name: Plank (5)
   m_TagString: Untagged
@@ -3462,20 +3311,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800247424119}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720800247424117
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720800247424119}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720800260529736
 GameObject:
   m_ObjectHideFlags: 0
@@ -3488,7 +3323,6 @@ GameObject:
   - component: {fileID: 3729720800260529731}
   - component: {fileID: 3729720800260529732}
   - component: {fileID: 3729720800260529733}
-  - component: {fileID: 3729720800260529734}
   m_Layer: 0
   m_Name: Plank (1)
   m_TagString: Untagged
@@ -3504,7 +3338,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800260529736}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.5372992, y: 0.50001, z: 0.0000000144355}
+  m_LocalPosition: {x: -1.3866596, y: 0.50001, z: 0.0000000144355}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3778,20 +3612,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800260529736}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720800260529734
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720800260529736}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720800268656268
 GameObject:
   m_ObjectHideFlags: 0
@@ -3804,7 +3624,6 @@ GameObject:
   - component: {fileID: 3729720800268656263}
   - component: {fileID: 3729720800268656264}
   - component: {fileID: 3729720800268656265}
-  - component: {fileID: 3729720800268656266}
   m_Layer: 0
   m_Name: Plank (2)
   m_TagString: Untagged
@@ -3820,7 +3639,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800268656268}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.224862, y: 0.50001, z: 0.0000000144355}
+  m_LocalPosition: {x: -1.0742224, y: 0.50001, z: 0.0000000144355}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4094,20 +3913,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800268656268}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720800268656266
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720800268656268}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720800333175382
 GameObject:
   m_ObjectHideFlags: 0
@@ -4120,7 +3925,6 @@ GameObject:
   - component: {fileID: 3729720800333175377}
   - component: {fileID: 3729720800333175378}
   - component: {fileID: 3729720800333175379}
-  - component: {fileID: 3729720800333175380}
   m_Layer: 0
   m_Name: Plank (4)
   m_TagString: Untagged
@@ -4136,7 +3940,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800333175382}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.9472343, y: 0.50001, z: 0.0000000144355}
+  m_LocalPosition: {x: 2.0978744, y: 0.50001, z: 0.0000000144355}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4410,20 +4214,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800333175382}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720800333175380
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720800333175382}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720800386269070
 GameObject:
   m_ObjectHideFlags: 0
@@ -4436,7 +4226,6 @@ GameObject:
   - component: {fileID: 3729720800386269065}
   - component: {fileID: 3729720800386269066}
   - component: {fileID: 3729720800386269067}
-  - component: {fileID: 3729720800386269068}
   m_Layer: 0
   m_Name: Plank (10)
   m_TagString: Untagged
@@ -4726,20 +4515,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800386269070}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720800386269068
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720800386269070}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720800404547652
 GameObject:
   m_ObjectHideFlags: 0
@@ -4752,7 +4527,6 @@ GameObject:
   - component: {fileID: 3729720800404547711}
   - component: {fileID: 3729720800404547648}
   - component: {fileID: 3729720800404547649}
-  - component: {fileID: 3729720800404547650}
   m_Layer: 0
   m_Name: Plank (5)
   m_TagString: Untagged
@@ -4768,7 +4542,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800404547652}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.28724903, y: 0.50001, z: 0.0000000144355}
+  m_LocalPosition: {x: -0.13660946, y: 0.50001, z: 0.0000000144355}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5042,20 +4816,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800404547652}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720800404547650
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720800404547652}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720800409791217
 GameObject:
   m_ObjectHideFlags: 0
@@ -5068,7 +4828,6 @@ GameObject:
   - component: {fileID: 3729720800409791212}
   - component: {fileID: 3729720800409791213}
   - component: {fileID: 3729720800409791214}
-  - component: {fileID: 3729720800409791215}
   m_Layer: 0
   m_Name: Plank (12)
   m_TagString: Untagged
@@ -5358,20 +5117,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800409791217}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720800409791215
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720800409791217}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720800415125083
 GameObject:
   m_ObjectHideFlags: 0
@@ -5384,7 +5129,6 @@ GameObject:
   - component: {fileID: 3729720800415125078}
   - component: {fileID: 3729720800415125079}
   - component: {fileID: 3729720800415125080}
-  - component: {fileID: 3729720800415125081}
   m_Layer: 0
   m_Name: Plank (15)
   m_TagString: Untagged
@@ -5674,20 +5418,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800415125083}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720800415125081
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720800415125083}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720800436290071
 GameObject:
   m_ObjectHideFlags: 0
@@ -5700,7 +5430,6 @@ GameObject:
   - component: {fileID: 3729720800436290066}
   - component: {fileID: 3729720800436290067}
   - component: {fileID: 3729720800436290068}
-  - component: {fileID: 3729720800436290069}
   m_Layer: 0
   m_Name: Plank (13)
   m_TagString: Untagged
@@ -5716,7 +5445,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800436290071}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.2628531, y: 0.50001, z: 0.0000000144355}
+  m_LocalPosition: {x: 2.4134927, y: 0.50001, z: 0.0000000144355}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5990,20 +5719,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800436290071}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720800436290069
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720800436290071}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720800446417567
 GameObject:
   m_ObjectHideFlags: 0
@@ -6016,7 +5731,6 @@ GameObject:
   - component: {fileID: 3729720800446417562}
   - component: {fileID: 3729720800446417563}
   - component: {fileID: 3729720800446417564}
-  - component: {fileID: 3729720800446417565}
   m_Layer: 0
   m_Name: Plank (11)
   m_TagString: Untagged
@@ -6032,7 +5746,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800446417567}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.6128271, y: 0.50001, z: 0.0000000144355}
+  m_LocalPosition: {x: 1.7634666, y: 0.50001, z: 0.0000000144355}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6306,20 +6020,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800446417567}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720800446417565
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720800446417567}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720800459687177
 GameObject:
   m_ObjectHideFlags: 0
@@ -6332,7 +6032,6 @@ GameObject:
   - component: {fileID: 3729720800459687172}
   - component: {fileID: 3729720800459687173}
   - component: {fileID: 3729720800459687174}
-  - component: {fileID: 3729720800459687175}
   m_Layer: 0
   m_Name: Plank (8)
   m_TagString: Untagged
@@ -6348,7 +6047,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800459687177}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.67203236, y: 0.50001, z: 0.0000000144355}
+  m_LocalPosition: {x: 0.8226719, y: 0.50001, z: 0.0000000144355}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6622,20 +6321,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800459687177}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720800459687175
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720800459687177}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720800567072510
 GameObject:
   m_ObjectHideFlags: 0
@@ -6648,7 +6333,6 @@ GameObject:
   - component: {fileID: 3729720800567072505}
   - component: {fileID: 3729720800567072506}
   - component: {fileID: 3729720800567072507}
-  - component: {fileID: 3729720800567072508}
   m_Layer: 0
   m_Name: Plank (14)
   m_TagString: Untagged
@@ -6938,20 +6622,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800567072510}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720800567072508
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720800567072510}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720800593836799
 GameObject:
   m_ObjectHideFlags: 0
@@ -6964,7 +6634,6 @@ GameObject:
   - component: {fileID: 3729720800593836794}
   - component: {fileID: 3729720800593836795}
   - component: {fileID: 3729720800593836796}
-  - component: {fileID: 3729720800593836797}
   m_Layer: 0
   m_Name: Plank (6)
   m_TagString: Untagged
@@ -6980,7 +6649,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800593836799}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.04397668, y: 0.50001, z: 0.0000000144355}
+  m_LocalPosition: {x: 0.19461624, y: 0.50001, z: 0.0000000144355}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7254,20 +6923,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800593836799}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720800593836797
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720800593836799}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720800659228938
 GameObject:
   m_ObjectHideFlags: 0
@@ -7280,7 +6935,6 @@ GameObject:
   - component: {fileID: 3729720800659228933}
   - component: {fileID: 3729720800659228934}
   - component: {fileID: 3729720800659228935}
-  - component: {fileID: 3729720800659228936}
   m_Layer: 0
   m_Name: Plank (3)
   m_TagString: Untagged
@@ -7570,20 +7224,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800659228938}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720800659228936
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720800659228938}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720800737250636
 GameObject:
   m_ObjectHideFlags: 0
@@ -7596,7 +7236,6 @@ GameObject:
   - component: {fileID: 3729720800737250631}
   - component: {fileID: 3729720800737250632}
   - component: {fileID: 3729720800737250633}
-  - component: {fileID: 3729720800737250634}
   m_Layer: 0
   m_Name: Beam (1)
   m_TagString: Untagged
@@ -7886,20 +7525,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800737250636}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720800737250634
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720800737250636}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720800737680777
 GameObject:
   m_ObjectHideFlags: 0
@@ -7912,7 +7537,6 @@ GameObject:
   - component: {fileID: 3729720800737680772}
   - component: {fileID: 3729720800737680773}
   - component: {fileID: 3729720800737680774}
-  - component: {fileID: 3729720800737680775}
   m_Layer: 0
   m_Name: Beam
   m_TagString: Untagged
@@ -8202,20 +7826,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800737680777}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720800737680775
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720800737680777}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720800819175992
 GameObject:
   m_ObjectHideFlags: 0
@@ -8228,7 +7838,6 @@ GameObject:
   - component: {fileID: 3729720800819175987}
   - component: {fileID: 3729720800819175988}
   - component: {fileID: 3729720800819175989}
-  - component: {fileID: 3729720800819175990}
   m_Layer: 0
   m_Name: Beam (2)
   m_TagString: Untagged
@@ -8518,20 +8127,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800819175992}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720800819175990
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720800819175992}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720800844267314
 GameObject:
   m_ObjectHideFlags: 0
@@ -8544,7 +8139,6 @@ GameObject:
   - component: {fileID: 3729720800844267309}
   - component: {fileID: 3729720800844267310}
   - component: {fileID: 3729720800844267311}
-  - component: {fileID: 3729720800844267312}
   m_Layer: 0
   m_Name: Plank (2)
   m_TagString: Untagged
@@ -8834,20 +8428,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800844267314}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720800844267312
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720800844267314}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720800863525766
 GameObject:
   m_ObjectHideFlags: 0
@@ -8857,6 +8437,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3729720800863525765}
+  - component: {fileID: 5587142228952785615}
   m_Layer: 0
   m_Name: East Wall
   m_TagString: Untagged
@@ -8898,6 +8479,19 @@ Transform:
   m_Father: {fileID: 3729720801567050356}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!65 &5587142228952785615
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3729720800863525766}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.5, y: 2.8, z: 0.25}
+  m_Center: {x: 0, y: 1.4, z: 0}
 --- !u!1 &3729720800881158383
 GameObject:
   m_ObjectHideFlags: 0
@@ -8910,7 +8504,6 @@ GameObject:
   - component: {fileID: 3729720800881158378}
   - component: {fileID: 3729720800881158379}
   - component: {fileID: 3729720800881158380}
-  - component: {fileID: 3729720800881158381}
   m_Layer: 0
   m_Name: Plank (2)
   m_TagString: Untagged
@@ -8926,7 +8519,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800881158383}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.224862, y: 0.50001, z: 0.0000000144355}
+  m_LocalPosition: {x: -1.074222, y: 0.50001, z: 0.0000000144355}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9200,20 +8793,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800881158383}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720800881158381
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720800881158383}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720800891460008
 GameObject:
   m_ObjectHideFlags: 0
@@ -9226,7 +8805,6 @@ GameObject:
   - component: {fileID: 3729720800891460003}
   - component: {fileID: 3729720800891460004}
   - component: {fileID: 3729720800891460005}
-  - component: {fileID: 3729720800891460006}
   m_Layer: 0
   m_Name: Plank (9)
   m_TagString: Untagged
@@ -9516,20 +9094,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800891460008}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720800891460006
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720800891460008}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720800942988036
 GameObject:
   m_ObjectHideFlags: 0
@@ -9542,7 +9106,6 @@ GameObject:
   - component: {fileID: 3729720800942988095}
   - component: {fileID: 3729720800942988032}
   - component: {fileID: 3729720800942988033}
-  - component: {fileID: 3729720800942988034}
   m_Layer: 0
   m_Name: Plank (5)
   m_TagString: Untagged
@@ -9558,7 +9121,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800942988036}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.2628531, y: 0.50001, z: 0.0000000144355}
+  m_LocalPosition: {x: 2.4134932, y: 0.50001, z: 0.0000000144355}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9832,20 +9395,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800942988036}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720800942988034
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720800942988036}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720800959639104
 GameObject:
   m_ObjectHideFlags: 0
@@ -9858,7 +9407,6 @@ GameObject:
   - component: {fileID: 3729720800959639163}
   - component: {fileID: 3729720800959639164}
   - component: {fileID: 3729720800959639165}
-  - component: {fileID: 3729720800959639166}
   m_Layer: 0
   m_Name: Plank (14)
   m_TagString: Untagged
@@ -10148,20 +9696,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800959639104}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720800959639166
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720800959639104}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720800964561292
 GameObject:
   m_ObjectHideFlags: 0
@@ -10174,7 +9708,6 @@ GameObject:
   - component: {fileID: 3729720800964561287}
   - component: {fileID: 3729720800964561288}
   - component: {fileID: 3729720800964561289}
-  - component: {fileID: 3729720800964561290}
   m_Layer: 0
   m_Name: Plank (5)
   m_TagString: Untagged
@@ -10464,20 +9997,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800964561292}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720800964561290
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720800964561292}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720800989745688
 GameObject:
   m_ObjectHideFlags: 0
@@ -10490,7 +10009,6 @@ GameObject:
   - component: {fileID: 3729720800989745683}
   - component: {fileID: 3729720800989745684}
   - component: {fileID: 3729720800989745685}
-  - component: {fileID: 3729720800989745686}
   m_Layer: 0
   m_Name: Plank
   m_TagString: Untagged
@@ -10780,20 +10298,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720800989745688}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720800989745686
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720800989745688}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720801028964285
 GameObject:
   m_ObjectHideFlags: 0
@@ -10806,7 +10310,6 @@ GameObject:
   - component: {fileID: 3729720801028964280}
   - component: {fileID: 3729720801028964281}
   - component: {fileID: 3729720801028964282}
-  - component: {fileID: 3729720801028964283}
   m_Layer: 0
   m_Name: Plank (8)
   m_TagString: Untagged
@@ -11096,20 +10599,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720801028964285}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720801028964283
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720801028964285}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720801041733475
 GameObject:
   m_ObjectHideFlags: 0
@@ -11122,7 +10611,6 @@ GameObject:
   - component: {fileID: 3729720801041733406}
   - component: {fileID: 3729720801041733407}
   - component: {fileID: 3729720801041733472}
-  - component: {fileID: 3729720801041733473}
   m_Layer: 0
   m_Name: Plank (9)
   m_TagString: Untagged
@@ -11138,7 +10626,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720801041733475}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.9971962, y: 0.50001, z: 0.0000000144355}
+  m_LocalPosition: {x: 1.1478357, y: 0.50001, z: 0.0000000144355}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11412,20 +10900,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720801041733475}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720801041733473
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720801041733475}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720801129333687
 GameObject:
   m_ObjectHideFlags: 0
@@ -11438,7 +10912,6 @@ GameObject:
   - component: {fileID: 3729720801129333682}
   - component: {fileID: 3729720801129333683}
   - component: {fileID: 3729720801129333684}
-  - component: {fileID: 3729720801129333685}
   m_Layer: 0
   m_Name: Plank (6)
   m_TagString: Untagged
@@ -11728,20 +11201,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720801129333687}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720801129333685
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720801129333687}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720801185270051
 GameObject:
   m_ObjectHideFlags: 0
@@ -11754,7 +11213,6 @@ GameObject:
   - component: {fileID: 3729720801185270494}
   - component: {fileID: 3729720801185270495}
   - component: {fileID: 3729720801185270048}
-  - component: {fileID: 3729720801185270049}
   m_Layer: 0
   m_Name: Plank (12)
   m_TagString: Untagged
@@ -12044,20 +11502,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720801185270051}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720801185270049
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720801185270051}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720801191868988
 GameObject:
   m_ObjectHideFlags: 0
@@ -12070,7 +11514,6 @@ GameObject:
   - component: {fileID: 3729720801191868983}
   - component: {fileID: 3729720801191868984}
   - component: {fileID: 3729720801191868985}
-  - component: {fileID: 3729720801191868986}
   m_Layer: 0
   m_Name: Plank (4)
   m_TagString: Untagged
@@ -12086,7 +11529,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720801191868988}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5872611, y: 0.50001, z: 0.0000000144355}
+  m_LocalPosition: {x: -0.43662152, y: 0.50001, z: 0.0000000144355}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12360,20 +11803,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720801191868988}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720801191868986
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720801191868988}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720801212553043
 GameObject:
   m_ObjectHideFlags: 0
@@ -12383,6 +11812,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3729720801212553042}
+  - component: {fileID: 7311039481807317481}
   m_Layer: 0
   m_Name: West Wall
   m_TagString: Untagged
@@ -12424,6 +11854,19 @@ Transform:
   m_Father: {fileID: 3729720801567050356}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &7311039481807317481
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3729720801212553043}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.5, y: 2.8, z: 0.25}
+  m_Center: {x: 0, y: 1.4, z: 0}
 --- !u!1 &3729720801214059605
 GameObject:
   m_ObjectHideFlags: 0
@@ -12436,7 +11879,6 @@ GameObject:
   - component: {fileID: 3729720801214059600}
   - component: {fileID: 3729720801214059601}
   - component: {fileID: 3729720801214059602}
-  - component: {fileID: 3729720801214059603}
   m_Layer: 0
   m_Name: Beam (1)
   m_TagString: Untagged
@@ -12726,20 +12168,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720801214059605}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720801214059603
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720801214059605}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720801217241863
 GameObject:
   m_ObjectHideFlags: 0
@@ -12752,7 +12180,6 @@ GameObject:
   - component: {fileID: 3729720801217241858}
   - component: {fileID: 3729720801217241859}
   - component: {fileID: 3729720801217241860}
-  - component: {fileID: 3729720801217241861}
   m_Layer: 0
   m_Name: Plank (7)
   m_TagString: Untagged
@@ -13042,20 +12469,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720801217241863}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720801217241861
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720801217241863}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720801251007271
 GameObject:
   m_ObjectHideFlags: 0
@@ -13068,7 +12481,6 @@ GameObject:
   - component: {fileID: 3729720801251007266}
   - component: {fileID: 3729720801251007267}
   - component: {fileID: 3729720801251007268}
-  - component: {fileID: 3729720801251007269}
   m_Layer: 0
   m_Name: Plank (1)
   m_TagString: Untagged
@@ -13084,7 +12496,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720801251007271}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.5372992, y: 0.50001, z: 0.0000000144355}
+  m_LocalPosition: {x: -1.3866591, y: 0.50001, z: 0.0000000144355}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13358,20 +12770,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720801251007271}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720801251007269
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720801251007271}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720801307044915
 GameObject:
   m_ObjectHideFlags: 0
@@ -13384,7 +12782,6 @@ GameObject:
   - component: {fileID: 3729720801307044910}
   - component: {fileID: 3729720801307044911}
   - component: {fileID: 3729720801307044912}
-  - component: {fileID: 3729720801307044913}
   m_Layer: 0
   m_Name: Plank (3)
   m_TagString: Untagged
@@ -13674,20 +13071,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720801307044915}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720801307044913
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720801307044915}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720801349264375
 GameObject:
   m_ObjectHideFlags: 0
@@ -13700,7 +13083,6 @@ GameObject:
   - component: {fileID: 3729720801349264370}
   - component: {fileID: 3729720801349264371}
   - component: {fileID: 3729720801349264372}
-  - component: {fileID: 3729720801349264373}
   m_Layer: 0
   m_Name: Plank (7)
   m_TagString: Untagged
@@ -13716,7 +13098,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720801349264375}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.3691405, y: 0.50001, z: 0.0000000144355}
+  m_LocalPosition: {x: 0.51978004, y: 0.50001, z: 0.0000000144355}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13990,20 +13372,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720801349264375}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720801349264373
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720801349264375}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720801460988707
 GameObject:
   m_ObjectHideFlags: 0
@@ -14016,7 +13384,6 @@ GameObject:
   - component: {fileID: 3729720801460987102}
   - component: {fileID: 3729720801460987103}
   - component: {fileID: 3729720801460988704}
-  - component: {fileID: 3729720801460988705}
   m_Layer: 0
   m_Name: Beam
   m_TagString: Untagged
@@ -14306,20 +13673,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720801460988707}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720801460988705
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720801460988707}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720801478966165
 GameObject:
   m_ObjectHideFlags: 0
@@ -14332,7 +13685,6 @@ GameObject:
   - component: {fileID: 3729720801478966160}
   - component: {fileID: 3729720801478966161}
   - component: {fileID: 3729720801478966162}
-  - component: {fileID: 3729720801478966163}
   m_Layer: 0
   m_Name: Plank (1)
   m_TagString: Untagged
@@ -14622,20 +13974,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720801478966165}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720801478966163
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720801478966165}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720801509516163
 GameObject:
   m_ObjectHideFlags: 0
@@ -14648,7 +13986,6 @@ GameObject:
   - component: {fileID: 3729720801509516222}
   - component: {fileID: 3729720801509516223}
   - component: {fileID: 3729720801509516160}
-  - component: {fileID: 3729720801509516161}
   m_Layer: 0
   m_Name: Plank (4)
   m_TagString: Untagged
@@ -14938,20 +14275,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720801509516163}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720801509516161
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720801509516163}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720801537887987
 GameObject:
   m_ObjectHideFlags: 0
@@ -14961,8 +14284,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3729720801537887986}
+  - component: {fileID: 5406103499028863252}
+  - component: {fileID: 645792566810849899}
   m_Layer: 0
-  m_Name: North Wall (1)
+  m_Name: South Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14976,7 +14301,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720801537887987}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 2.600261, y: -0.10015011, z: -0.15000057}
+  m_LocalPosition: {x: 2.600261, y: -0.10015011, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -14989,6 +14314,32 @@ Transform:
   m_Father: {fileID: 3729720801567050356}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &5406103499028863252
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3729720801537887987}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 2.8, z: 0.25}
+  m_Center: {x: 1.75, y: 1.4, z: 0}
+--- !u!65 &645792566810849899
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3729720801537887987}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 2.8, z: 0.25}
+  m_Center: {x: -1.75, y: 1.4, z: 0}
 --- !u!1 &3729720801567050357
 GameObject:
   m_ObjectHideFlags: 0
@@ -15033,6 +14384,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3729720801609528438}
+  - component: {fileID: 368088047704254222}
   m_Layer: 0
   m_Name: North Wall
   m_TagString: Untagged
@@ -15048,7 +14400,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720801609528439}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -2.6000001, y: -0.10015011, z: -0.1500001}
+  m_LocalPosition: {x: -2.6000001, y: -0.10015011, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -15069,6 +14421,19 @@ Transform:
   m_Father: {fileID: 3729720801567050356}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &368088047704254222
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3729720801609528439}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.5, y: 2.8, z: 0.25}
+  m_Center: {x: 0, y: 1.4, z: 0}
 --- !u!1 &3729720801641069974
 GameObject:
   m_ObjectHideFlags: 0
@@ -15081,7 +14446,6 @@ GameObject:
   - component: {fileID: 3729720801641069969}
   - component: {fileID: 3729720801641069970}
   - component: {fileID: 3729720801641069971}
-  - component: {fileID: 3729720801641069972}
   m_Layer: 0
   m_Name: Plank (10)
   m_TagString: Untagged
@@ -15371,20 +14735,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720801641069974}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720801641069972
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720801641069974}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720801727539574
 GameObject:
   m_ObjectHideFlags: 0
@@ -15397,7 +14747,6 @@ GameObject:
   - component: {fileID: 3729720801727539569}
   - component: {fileID: 3729720801727539570}
   - component: {fileID: 3729720801727539571}
-  - component: {fileID: 3729720801727539572}
   m_Layer: 0
   m_Name: Plank
   m_TagString: Untagged
@@ -15413,7 +14762,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720801727539574}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.862463, y: 0.50001, z: 0.0000000144355}
+  m_LocalPosition: {x: -1.711823, y: 0.50001, z: 0.0000000144355}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15687,20 +15036,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720801727539574}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720801727539572
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720801727539574}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720801774270932
 GameObject:
   m_ObjectHideFlags: 0
@@ -15713,7 +15048,6 @@ GameObject:
   - component: {fileID: 3729720801774270927}
   - component: {fileID: 3729720801774270928}
   - component: {fileID: 3729720801774270929}
-  - component: {fileID: 3729720801774270930}
   m_Layer: 0
   m_Name: Plank (3)
   m_TagString: Untagged
@@ -15729,7 +15063,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720801774270932}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.6128271, y: 0.50001, z: 0.0000000144355}
+  m_LocalPosition: {x: 1.7634671, y: 0.50001, z: 0.0000000144355}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16003,20 +15337,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720801774270932}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720801774270930
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720801774270932}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720801776956709
 GameObject:
   m_ObjectHideFlags: 0
@@ -16029,7 +15349,6 @@ GameObject:
   - component: {fileID: 3729720801776956704}
   - component: {fileID: 3729720801776956705}
   - component: {fileID: 3729720801776956706}
-  - component: {fileID: 3729720801776956707}
   m_Layer: 0
   m_Name: Plank (15)
   m_TagString: Untagged
@@ -16319,20 +15638,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720801776956709}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720801776956707
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720801776956709}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720801825206760
 GameObject:
   m_ObjectHideFlags: 0
@@ -16345,7 +15650,6 @@ GameObject:
   - component: {fileID: 3729720801825206755}
   - component: {fileID: 3729720801825206756}
   - component: {fileID: 3729720801825206757}
-  - component: {fileID: 3729720801825206758}
   m_Layer: 0
   m_Name: Plank
   m_TagString: Untagged
@@ -16635,20 +15939,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720801825206760}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720801825206758
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720801825206760}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720801826881955
 GameObject:
   m_ObjectHideFlags: 0
@@ -16661,7 +15951,6 @@ GameObject:
   - component: {fileID: 3729720801826881886}
   - component: {fileID: 3729720801826881887}
   - component: {fileID: 3729720801826881952}
-  - component: {fileID: 3729720801826881953}
   m_Layer: 0
   m_Name: Plank (13)
   m_TagString: Untagged
@@ -16951,20 +16240,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720801826881955}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720801826881953
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720801826881955}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720801830005375
 GameObject:
   m_ObjectHideFlags: 0
@@ -16977,7 +16252,6 @@ GameObject:
   - component: {fileID: 3729720801830005370}
   - component: {fileID: 3729720801830005371}
   - component: {fileID: 3729720801830005372}
-  - component: {fileID: 3729720801830005373}
   m_Layer: 0
   m_Name: Plank
   m_TagString: Untagged
@@ -16993,7 +16267,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720801830005375}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.862463, y: 0.50001, z: 0.0000000144355}
+  m_LocalPosition: {x: -1.7118235, y: 0.50001, z: 0.0000000144355}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17267,20 +16541,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720801830005375}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720801830005373
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720801830005375}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720801900331358
 GameObject:
   m_ObjectHideFlags: 0
@@ -17293,7 +16553,6 @@ GameObject:
   - component: {fileID: 3729720801900331353}
   - component: {fileID: 3729720801900331354}
   - component: {fileID: 3729720801900331355}
-  - component: {fileID: 3729720801900331356}
   m_Layer: 0
   m_Name: Plank (6)
   m_TagString: Untagged
@@ -17583,20 +16842,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720801900331358}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720801900331356
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720801900331358}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720801931691605
 GameObject:
   m_ObjectHideFlags: 0
@@ -17609,7 +16854,6 @@ GameObject:
   - component: {fileID: 3729720801931691600}
   - component: {fileID: 3729720801931691601}
   - component: {fileID: 3729720801931691602}
-  - component: {fileID: 3729720801931691603}
   m_Layer: 0
   m_Name: Plank (2)
   m_TagString: Untagged
@@ -17899,20 +17143,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720801931691605}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720801931691603
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720801931691605}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720801958958677
 GameObject:
   m_ObjectHideFlags: 0
@@ -17925,7 +17155,6 @@ GameObject:
   - component: {fileID: 3729720801958958672}
   - component: {fileID: 3729720801958958673}
   - component: {fileID: 3729720801958958674}
-  - component: {fileID: 3729720801958958675}
   m_Layer: 0
   m_Name: Plank (3)
   m_TagString: Untagged
@@ -17941,7 +17170,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720801958958677}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.89969814, y: 0.50001, z: 0.0000000144355}
+  m_LocalPosition: {x: -0.7490586, y: 0.50001, z: 0.0000000144355}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18215,20 +17444,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720801958958677}
   m_Mesh: {fileID: 0}
---- !u!64 &3729720801958958675
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720801958958677}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3729720802018894086
 GameObject:
   m_ObjectHideFlags: 0
@@ -18241,7 +17456,6 @@ GameObject:
   - component: {fileID: 3729720802018894081}
   - component: {fileID: 3729720802018894082}
   - component: {fileID: 3729720802018894083}
-  - component: {fileID: 3729720802018894084}
   m_Layer: 0
   m_Name: Plank (4)
   m_TagString: Untagged
@@ -18530,18 +17744,4 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3729720802018894086}
-  m_Mesh: {fileID: 0}
---- !u!64 &3729720802018894084
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729720802018894086}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
   m_Mesh: {fileID: 0}
