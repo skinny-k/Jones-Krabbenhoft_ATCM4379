@@ -44,17 +44,15 @@ public class ChangeMesh : MonoBehaviour
         _meshFilter.mesh = _meshes[_currentMesh];
     }
 
-    public bool SetMesh(int index)
+    public void SetMesh(int index)
     {
         if (index < _meshes.Count)
         {
             _meshFilter.mesh = _meshes[index];
-            return true;
         }
         else
         {
             Debug.Log("Index out of bounds!");
-            return false;
         }
     }
 }

@@ -31,7 +31,7 @@ public class Tool : MonoBehaviour
     {
         if (_collidingWith.Count > 0)
         {
-            _collidingWith[_collidingWith.Count - 1].Activate?.Invoke();
+            _collidingWith[_collidingWith.Count - 1].UseTool();
         }
     }
 }
