@@ -5493,6 +5493,8 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   _coveredMesh: {fileID: 672551834481701363, guid: 08eefc2f613faa34fbb717ac2142af0a, type: 3}
+  _regularMaterial: {fileID: 2100000, guid: 38f8b366692221649a42495f9180197a, type: 2}
+  _fertilizedMaterial: {fileID: 2100000, guid: 885e6c2a0e26d004983ff6254d47e230, type: 2}
   _activatedItems: {fileID: 3438048292029457824}
   DigUp:
     m_PersistentCalls:

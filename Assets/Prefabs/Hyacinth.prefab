@@ -153,6 +153,11 @@ MonoBehaviour:
   _bush: {fileID: 177819207794607655}
   _deadBush: {fileID: 691991173255571225}
   _waterNeeded: 3
+  _fertilizerNeeded: 3
+  _checkRadius: 0.1
+  _interactionMask:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!136 &7594348282664419014
 CapsuleCollider:
   m_ObjectHideFlags: 0

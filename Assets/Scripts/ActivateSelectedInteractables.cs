@@ -13,13 +13,16 @@ public class ActivateSelectedInteractables : MonoBehaviour
     
     public void UseOnAllSelected()
     {
-        Debug.Log("In ActivateSelectedInteractables.UseOnAllSelected()");
-
         if (GetComponent<XRBaseInteractor>().interactablesSelected.Count != 0)
         {
             foreach (IXRSelectInteractable interactable in GetComponent<XRBaseInteractor>().interactablesSelected)
             {
                 interactable.transform?.GetComponent<ActivatedItem>().Activate();
+            }
+
+            foreach (IXRSelectInteractable interactable in GetComponent<XRBaseInteractor>().interactablesSelected)
+            {
+                interactable.transform?.GetComponent<ActivatedItem>().ExecuteCompletionAction();
             }
 
             OnActivate?.Invoke();
