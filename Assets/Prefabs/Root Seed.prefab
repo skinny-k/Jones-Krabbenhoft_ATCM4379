@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 7237199947422043946}
   - component: {fileID: 7237199947422043984}
   m_Layer: 9
-  m_Name: Hyacinth Seed
+  m_Name: Root Seed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -66,7 +66,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: eaf91505d1952da4d87b99ec9b7a89dd, type: 2}
+  - {fileID: 2100000, guid: 35150f643fa357a4295ef3b6bb075997, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -281,7 +281,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   _completionAction: 0
-  _plantToSpawn: {fileID: 8959782354355600016, guid: 13ce462619a8a584f915bd999acf0c3e, type: 3}
+  _plantToSpawn: {fileID: 678743408349298812, guid: 210b5c46122d98745877ae307b028f6e, type: 3}
   _spawnLocation: {fileID: 7237199948025551431}
 --- !u!1 &7237199948025551428
 GameObject:

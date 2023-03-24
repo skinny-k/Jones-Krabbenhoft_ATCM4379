@@ -12,6 +12,7 @@ public class PlanterNode : ToolInteractable
     [SerializeField] UnityEvent DigUp;
 
     Plant _plant = null;
+    public int WeedCount = 0;
     
     public override void UseTool()
     {
