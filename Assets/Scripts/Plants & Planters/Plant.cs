@@ -23,7 +23,7 @@ public class Plant : MonoBehaviour
     [SerializeField] LayerMask _interactionMask;
 
     protected PlanterNode _planter;
-    protected int _growStage = 0;
+    public int GrowStage { get; private set; } = 0;
     protected bool _fertilized = false;
     protected int _daysSinceLastWeed = 0;
 
@@ -61,7 +61,7 @@ public class Plant : MonoBehaviour
             case ResourceDrop.ResourceType.Water:
                 _currentWater += amount;
 
-                if (_currentWater >= _waterNeeded && _growStage == 0)
+                if (_currentWater >= _waterNeeded && GrowStage == 0)
                 {
                     Grow();
                 }
@@ -69,7 +69,7 @@ public class Plant : MonoBehaviour
             case ResourceDrop.ResourceType.Fertilizer:
                 _currentFertilizer += amount;
 
-                if (_currentFertilizer >= _fertilizerNeeded && _growStage == 1)
+                if (_currentFertilizer >= _fertilizerNeeded && GrowStage == 1)
                 {
                     _fertilized = true;
                     _planter.SetFertilizedMaterial(_fertilized);
@@ -80,7 +80,7 @@ public class Plant : MonoBehaviour
 
     public virtual void Grow()
     {
-        switch (_growStage)
+        switch (GrowStage)
         {
             case 0:
                 _sprout.SetActive(true);
@@ -91,7 +91,7 @@ public class Plant : MonoBehaviour
                 break;
         }
 
-        _growStage++;
+        GrowStage++;
     }
 
     public virtual void ProgressDay()
@@ -103,7 +103,7 @@ public class Plant : MonoBehaviour
             _planter.SetFertilizedMaterial(_fertilized);
         }
 
-        if (_growStage == 2)
+        if (GrowStage == 2)
         {
             if (_planter.WeedCount >= _weedThreshold)
             {

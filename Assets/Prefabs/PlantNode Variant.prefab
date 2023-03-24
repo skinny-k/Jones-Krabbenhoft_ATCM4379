@@ -5440,6 +5440,7 @@ MonoBehaviour:
   _meshes:
   - {fileID: 672551834481701363, guid: 08eefc2f613faa34fbb717ac2142af0a, type: 3}
   - {fileID: 5864311242745975977, guid: 6a36198ca296334409fc4f16a4ec4c8e, type: 3}
+  _objectToCopy: {fileID: 0}
   _randomizeAtStartup: 0
 --- !u!114 &7509413645732249787
 MonoBehaviour:
@@ -5549,3 +5550,4 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  WeedCount: 0

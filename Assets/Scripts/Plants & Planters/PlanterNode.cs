@@ -20,8 +20,9 @@ public class PlanterNode : ToolInteractable
         {
             Activate?.Invoke();
         }
-        else
+        else if (_plant.GrowStage > 0)
         {
+            Debug.Log(_plant.GrowStage);
             Destroy(_plant.gameObject);
             _plant = null;
             SetFertilizedMaterial(false);
@@ -38,6 +39,18 @@ public class PlanterNode : ToolInteractable
 
         _plant = newPlant;
     }
+
+    /*
+    public void RemovePlant()
+    {
+        if (_plant != null && _plant.GrowStage != 0)
+        {
+            Debug.Log(_plant.GrowStage);
+            Destroy(_plant.gameObject);
+            _plant = null;
+        }
+    }
+    */
 
     public void SetFertilizedMaterial(bool state)
     {
