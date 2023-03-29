@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Plant : MonoBehaviour
 {
@@ -17,6 +18,9 @@ public class Plant : MonoBehaviour
     [SerializeField] int _weedThreshold = 2;
     [SerializeField] float _chanceToSpawnWeed = 0.4f;
     [SerializeField] float _chanceToSpawnInsects = 0.25f;
+    [SerializeField] AudioClip _growSFX;
+    [SerializeField] float _volume = 1.0f;
+    [SerializeField] UnityEvent _onResourceCollect;
 
     [Header("Initialization Settings")]
     [SerializeField] float _checkRadius = 0.1f;
@@ -59,6 +63,11 @@ public class Plant : MonoBehaviour
         switch (resource)
         {
             case ResourceDrop.ResourceType.Water:
+                if (_currentWater <= _waterNeeded)
+                {
+                    _onResourceCollect?.Invoke();
+                }
+                
                 _currentWater += amount;
 
                 if (_currentWater >= _waterNeeded && GrowStage == 0)
@@ -67,6 +76,11 @@ public class Plant : MonoBehaviour
                 }
                 break;
             case ResourceDrop.ResourceType.Fertilizer:
+                if (_currentFertilizer <= _fertilizerNeeded)
+                {
+                    _onResourceCollect?.Invoke();
+                }
+                
                 _currentFertilizer += amount;
 
                 if (_currentFertilizer >= _fertilizerNeeded && GrowStage == 1)
@@ -91,6 +105,7 @@ public class Plant : MonoBehaviour
                 break;
         }
 
+        AudioHelper.PlayClip3D(_growSFX, _volume, transform.position, true);
         GrowStage++;
     }
 

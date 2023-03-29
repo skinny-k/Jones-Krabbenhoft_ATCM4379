@@ -34,6 +34,18 @@ public class FadeCanvas : MonoBehaviour
         CurrentRoutine = StartCoroutine(FadeOut(defaultDuration));
     }
 
+    public void StartBounceIn()
+    {
+        StopAllCoroutines();
+        CurrentRoutine = StartCoroutine(FadeBounceIn(defaultDuration));
+    }
+    
+    public void StartBounceOut()
+    {
+        StopAllCoroutines();
+        CurrentRoutine = StartCoroutine(FadeBounceOut(defaultDuration));
+    }
+
     public void QuickFadeIn()
     {
         StopAllCoroutines();
@@ -44,6 +56,18 @@ public class FadeCanvas : MonoBehaviour
     {
         StopAllCoroutines();
         CurrentRoutine = StartCoroutine(FadeOut(quickFadeDuration));
+    }
+
+    public void QuickBounceIn()
+    {
+        StopAllCoroutines();
+        CurrentRoutine = StartCoroutine(FadeBounceIn(quickFadeDuration));
+    }
+
+    public void QuickBounceOut()
+    {
+        StopAllCoroutines();
+        CurrentRoutine = StartCoroutine(FadeBounceOut(quickFadeDuration));
     }
 
     private IEnumerator FadeIn(float duration)
@@ -68,6 +92,22 @@ public class FadeCanvas : MonoBehaviour
             elapsedTime += Time.deltaTime;
             yield return null;
         }
+    }
+
+    private IEnumerator FadeBounceIn(float duration)
+    {
+        CurrentRoutine = StartCoroutine(FadeOut(duration));
+        yield return new WaitForSeconds(duration * 2);
+        StopAllCoroutines();
+        CurrentRoutine = StartCoroutine(FadeIn(duration));
+    }
+
+    private IEnumerator FadeBounceOut(float duration)
+    {
+        CurrentRoutine = StartCoroutine(FadeIn(duration));
+        yield return new WaitForSeconds(duration * 2);
+        StopAllCoroutines();
+        CurrentRoutine = StartCoroutine(FadeOut(duration));
     }
 
     private void SetAlpha(float value)
