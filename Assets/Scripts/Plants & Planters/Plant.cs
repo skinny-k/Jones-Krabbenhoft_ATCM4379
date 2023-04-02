@@ -21,6 +21,10 @@ public class Plant : MonoBehaviour
     [SerializeField] AudioClip _growSFX;
     [SerializeField] float _volume = 1.0f;
     [SerializeField] UnityEvent _onResourceCollect;
+    [SerializeField] string _wateredMessage = "Seed Watered";
+    [SerializeField] string _fertilizedMessage = "Sprout Fertilized";
+    [SerializeField] string _overnightMessage = "Grew Overnight";
+    [SerializeField] string _weedsPulledMessage = "Weeds Pulled";
 
     [Header("Initialization Settings")]
     [SerializeField] float _checkRadius = 0.1f;
@@ -73,6 +77,7 @@ public class Plant : MonoBehaviour
                 if (_currentWater >= _waterNeeded && GrowStage == 0)
                 {
                     Grow();
+                    GetComponent<Broadcaster>().SendBroadcast(_wateredMessage);
                 }
                 break;
             case ResourceDrop.ResourceType.Fertilizer:
@@ -87,6 +92,7 @@ public class Plant : MonoBehaviour
                 {
                     _fertilized = true;
                     _planter.SetFertilizedMaterial(_fertilized);
+                    GetComponent<Broadcaster>().SendBroadcast(_fertilizedMessage);
                 }
                 break;
         }
@@ -111,11 +117,12 @@ public class Plant : MonoBehaviour
 
     public virtual void ProgressDay()
     {
-        if (_fertilized)
+        if (_fertilized && GrowStage == 1)
         {
             Grow();
             _fertilized = false;
             _planter.SetFertilizedMaterial(_fertilized);
+            GetComponent<Broadcaster>().SendBroadcast(_overnightMessage);
         }
 
         if (GrowStage == 2)
@@ -158,6 +165,10 @@ public class Plant : MonoBehaviour
     public void PullWeed()
     {
         _planter.WeedCount--;
+        if (_planter.WeedCount == 0)
+        {
+            GetComponent<Broadcaster>().SendBroadcast(_weedsPulledMessage);
+        }
     }
 
     void SpawnInsects()

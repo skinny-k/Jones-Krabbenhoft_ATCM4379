@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 7237199947422043949}
   - component: {fileID: 7237199947422043946}
   - component: {fileID: 7237199947422043984}
+  - component: {fileID: -3255144828374111097}
   m_Layer: 9
   m_Name: Tomato Seed
   m_TagString: Untagged
@@ -280,9 +281,33 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: -3255144828374111097}
+        m_TargetAssemblyTypeName: Broadcaster, Assembly-CSharp
+        m_MethodName: SendBroadcast
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Seed Planted
+          m_BoolArgument: 0
+        m_CallState: 2
   _completionAction: 0
   _plantToSpawn: {fileID: 4171802168140545038, guid: ca7943a653e28704d845882a97e04ea4, type: 3}
   _spawnLocation: {fileID: 7237199948025551431}
+--- !u!114 &-3255144828374111097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7237199947422043947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97ebb4a48e0d5f247bcf19913b24f24c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7237199948025551428
 GameObject:
   m_ObjectHideFlags: 0

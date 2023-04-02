@@ -5615,6 +5615,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 7985354519166892347}
+        m_TargetAssemblyTypeName: Broadcaster, Assembly-CSharp
+        m_MethodName: SendBroadcast
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Hole Dug
+          m_BoolArgument: 0
+        m_CallState: 2
   _coveredMesh: {fileID: 672551834481701363, guid: 08eefc2f613faa34fbb717ac2142af0a, type: 3}
   _regularMaterial: {fileID: 2100000, guid: 38f8b366692221649a42495f9180197a, type: 2}
   _fertilizedMaterial: {fileID: 2100000, guid: 885e6c2a0e26d004983ff6254d47e230, type: 2}
@@ -5672,3 +5684,15 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   WeedCount: 0
+--- !u!114 &7985354519166892347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4397291458507376774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97ebb4a48e0d5f247bcf19913b24f24c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
