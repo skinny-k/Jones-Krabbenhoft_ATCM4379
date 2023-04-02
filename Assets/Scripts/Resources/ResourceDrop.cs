@@ -18,7 +18,7 @@ public class ResourceDrop : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        other?.GetComponent<Plant>().AddResource(Resource, Value);
+        other?.GetComponent<Plant>()?.AddResource(Resource, Value);
         Destroy(gameObject);
     }
 

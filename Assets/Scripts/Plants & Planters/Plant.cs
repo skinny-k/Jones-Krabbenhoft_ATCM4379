@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
-public abstract class Plant : MonoBehaviour
+public class Plant : MonoBehaviour
 {
     [Header("Visual Settings")]
     [SerializeField] protected GameObject _sprout;
@@ -12,20 +13,30 @@ public abstract class Plant : MonoBehaviour
     [Header("Grow Settings")]
     [SerializeField] float _waterNeeded = 3f;
     [SerializeField] float _fertilizerNeeded = 3f;
+    [SerializeField] Weed _weedPrefab;
+    [SerializeField] int _maxWeedsPerDay = 3;
+    [SerializeField] int _weedThreshold = 2;
+    [SerializeField] float _chanceToSpawnWeed = 0.4f;
+    [SerializeField] float _chanceToSpawnInsects = 0.25f;
+    [SerializeField] AudioClip _growSFX;
+    [SerializeField] float _volume = 1.0f;
+    [SerializeField] UnityEvent _onResourceCollect;
+    [SerializeField] string _wateredMessage = "Seed Watered";
+    [SerializeField] string _fertilizedMessage = "Sprout Fertilized";
+    [SerializeField] string _overnightMessage = "Grew Overnight";
+    [SerializeField] string _weedsPulledMessage = "Weeds Pulled";
 
     [Header("Initialization Settings")]
     [SerializeField] float _checkRadius = 0.1f;
     [SerializeField] LayerMask _interactionMask;
 
     protected PlanterNode _planter;
-    protected int _growStage = 0;
+    public int GrowStage { get; private set; } = 0;
     protected bool _fertilized = false;
+    protected int _daysSinceLastWeed = 0;
 
     protected float _currentWater = 0f;
     protected float _currentFertilizer = 0f;
-    
-    public abstract void Grow();
-    public abstract void ProgressDay();
 
     protected virtual void OnEnable()
     {
@@ -40,7 +51,6 @@ public abstract class Plant : MonoBehaviour
     void Awake()
     {
         Collider[] collidersInside = Physics.OverlapSphere(transform.position, _checkRadius, _interactionMask);
-        Debug.Log(collidersInside.Length);
 
         foreach (Collider collider in collidersInside)
         {
@@ -57,22 +67,112 @@ public abstract class Plant : MonoBehaviour
         switch (resource)
         {
             case ResourceDrop.ResourceType.Water:
+                if (_currentWater <= _waterNeeded)
+                {
+                    _onResourceCollect?.Invoke();
+                }
+                
                 _currentWater += amount;
 
-                if (_currentWater >= _waterNeeded && _growStage == 0)
+                if (_currentWater >= _waterNeeded && GrowStage == 0)
                 {
                     Grow();
+                    GetComponent<Broadcaster>().SendBroadcast(_wateredMessage);
                 }
                 break;
             case ResourceDrop.ResourceType.Fertilizer:
+                if (_currentFertilizer <= _fertilizerNeeded)
+                {
+                    _onResourceCollect?.Invoke();
+                }
+                
                 _currentFertilizer += amount;
 
-                if (_currentFertilizer >= _fertilizerNeeded && _growStage == 1)
+                if (_currentFertilizer >= _fertilizerNeeded && GrowStage == 1)
                 {
                     _fertilized = true;
                     _planter.SetFertilizedMaterial(_fertilized);
+                    GetComponent<Broadcaster>().SendBroadcast(_fertilizedMessage);
                 }
                 break;
         }
+    }
+
+    public virtual void Grow()
+    {
+        switch (GrowStage)
+        {
+            case 0:
+                _sprout.SetActive(true);
+                break;
+            case 1:
+                _sprout.SetActive(false);
+                _bush.SetActive(true);
+                break;
+        }
+
+        AudioHelper.PlayClip3D(_growSFX, _volume, transform.position, true);
+        GrowStage++;
+    }
+
+    public virtual void ProgressDay()
+    {
+        if (_fertilized && GrowStage == 1)
+        {
+            Grow();
+            _fertilized = false;
+            _planter.SetFertilizedMaterial(_fertilized);
+            GetComponent<Broadcaster>().SendBroadcast(_overnightMessage);
+        }
+
+        if (GrowStage == 2)
+        {
+            if (_planter.WeedCount >= _weedThreshold)
+            {
+                _bush.SetActive(false);
+                _deadBush.SetActive(true);
+            }
+            SpawnAilments();
+        }
+
+        _daysSinceLastWeed++;
+    }
+
+    void SpawnAilments()
+    {
+        if (_daysSinceLastWeed >= 2)
+        {
+            SpawnWeeds();
+        }
+        SpawnInsects();
+    }
+
+    void SpawnWeeds()
+    {
+        for (int i = 0; i < _maxWeedsPerDay; i++)
+        {
+            if (Random.Range(0.0f, 1.0f) <= _chanceToSpawnWeed)
+            {
+                float x = Random.Range(transform.position.x - 0.75f, transform.position.x + 0.75f);
+                float z = Random.Range(transform.position.z - 0.75f, transform.position.z + 0.75f);
+                Instantiate(_weedPrefab, new Vector3(x, transform.position.y, z), Quaternion.identity).AffectedPlant = this;
+                _planter.WeedCount++;
+                _daysSinceLastWeed = 0;
+            }
+        }
+    }
+
+    public void PullWeed()
+    {
+        _planter.WeedCount--;
+        if (_planter.WeedCount == 0)
+        {
+            GetComponent<Broadcaster>().SendBroadcast(_weedsPulledMessage);
+        }
+    }
+
+    void SpawnInsects()
+    {
+        //
     }
 }

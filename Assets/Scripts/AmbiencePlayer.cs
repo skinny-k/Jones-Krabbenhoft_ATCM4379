@@ -10,6 +10,8 @@ public class AmbiencePlayer : MonoBehaviour
     [SerializeField] float _maxVolume = 1f;
     [SerializeField] float _minDelay = 0.5f;
     [SerializeField] float _maxDelay = 4f;
+    [Tooltip("How often to try to play a sound effect. Should be a multiple of the physics step.")]
+    [SerializeField] float _checkInterval = 0.5f;
 
     AudioSource _player;
     float _timer = 0f;
@@ -19,11 +21,12 @@ public class AmbiencePlayer : MonoBehaviour
         _player = GetComponent<AudioSource>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
-        _timer += Time.deltaTime;
+        _timer += Time.fixedDeltaTime;
+        _timer = Mathf.Round(_timer * 100) / 100;
 
-        if (_timer > _minDelay)
+        if (_timer % _checkInterval == 0 && _timer > _minDelay)
         {
             if (Random.Range(0f, 1f) <= _timer / _maxDelay)
             {

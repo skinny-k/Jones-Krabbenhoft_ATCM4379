@@ -6,6 +6,8 @@ using UnityEngine;
 public class ChangeMesh : MonoBehaviour
 {
     [SerializeField] List<Mesh> _meshes = new List<Mesh>();
+    [SerializeField] MeshFilter _objectToCopy = null;
+    [SerializeField] bool _randomizeAtStartup = false;
 
     MeshFilter _meshFilter;
     int _currentMesh = 0;
@@ -18,10 +20,23 @@ public class ChangeMesh : MonoBehaviour
         }
     }
     
-    void Start()
+    void Awake()
     {
         _meshFilter = GetComponent<MeshFilter>();
         _meshFilter.mesh = _meshes[0];
+
+        if (_randomizeAtStartup)
+        {
+            RandomizeMesh();
+        }
+    }
+
+    void Start()
+    {
+        if (_objectToCopy != null)
+        {
+            _meshFilter.mesh = _objectToCopy.mesh;
+        }
     }
 
     public void NextMesh()
@@ -54,5 +69,10 @@ public class ChangeMesh : MonoBehaviour
         {
             Debug.Log("Index out of bounds!");
         }
+    }
+
+    public void RandomizeMesh()
+    {
+        _meshFilter.mesh = _meshes[Random.Range(0, _meshes.Count)];
     }
 }
